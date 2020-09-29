@@ -24,11 +24,25 @@ li {
 }
 
 #right-side {
+  position: relative;
   display: block;
   margin-right: 0px;
   max-width: auto;
   color: black;
   height: 100%;
+}
+
+.bg-image::before {
+  content: "";
+  background-image: url("./images/computer2.jpg");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.4;
 }
 
 #nameTitle {
