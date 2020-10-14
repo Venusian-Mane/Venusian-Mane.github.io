@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.button span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background: #731fc2;
+  position: relative;
+  background: #6d5ee2;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
 html {
   min-width: 720px;
   position: relative;
