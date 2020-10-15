@@ -131,12 +131,13 @@ li {
   }
   .personal-details {
     display: grid;
-    grid-template-columns: 30vw auto;
+    grid-template-columns: 30vw 60vw;
     grid-gap: 10px;
   }
   .second-personal-details {
     display: grid;
     grid-template-columns: 100px auto 100px auto;
+    grid-gap: 20px;
   }
   .list-section {
     display: grid;

@@ -589,6 +589,13 @@ hr.major {
 .row.gtr-200.gtr-uniform > * {
   padding-top: 3em;
 }
+.faceshot1 {
+  height: 300px;
+  /* width: 300px; */
+}
+.faceImage {
+  padding: 20px;
+}
 @media screen and (max-width: 1680px) {
   .row {
     display: flex;
